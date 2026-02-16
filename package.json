@@ -9,6 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "db:generate": "drizzle-kit generate --config=db/drizzle.config.ts",
+    "db:generate:custom": "drizzle-kit generate --config=db/drizzle.config.ts --custom",
     "db:migrate": "drizzle-kit migrate --config=db/drizzle.config.ts",
     "db:studio": "drizzle-kit studio --config=db/drizzle.config.ts",
     "db:push": "drizzle-kit push --config=db/drizzle.config.ts"
